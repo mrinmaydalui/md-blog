@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "md-blog-db": {
+    "host": "md-dev1995.ckszouotgvmu.us-west-2.rds.amazonaws.com",
+    "port": 3306,
+    "url": "",
+    "database": "md_dev",
+    "password": "mddev5991-(0208)",
+    "name": "md-blog-db",
+    "user": "mddevuser1995",
+    "connector": "mysql"
   }
 }

@@ -14,25 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "md-blog-db"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "md-blog-db",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "md-blog-db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "md-blog-db",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "md-blog-db",
     "public": false
+  },
+  "news": {
+    "dataSource": "md-blog-db",
+    "public": true
   }
 }
